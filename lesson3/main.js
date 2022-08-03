@@ -2,7 +2,7 @@
 //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
 
 let x = +prompt('What is the number?');
-if (x != 0) {
+if (x !== 0) {
     console.log('True');
 } else {
     console.log('False');
